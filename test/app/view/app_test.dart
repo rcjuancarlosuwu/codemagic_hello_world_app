@@ -6,7 +6,7 @@ void main() {
   group('App', () {
     testWidgets('renders HelloWorldPage', (tester) async {
       await tester.pumpWidget(const App());
-      expect(find.byType(HelloWorldPage), findsOneWidget);
+      expect(find.byType(CodemagicHelloWorldPage), findsOneWidget);
     });
   });
 }
